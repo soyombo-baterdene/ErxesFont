@@ -12,12 +12,12 @@ import CoreText
 
 
 
-private var loaded = false
+private var fontloaded = false
 public func loadFont(){
-    if loaded {
+    if fontloaded {
         return
     }
-    loaded = true
+    fontloaded = true
    
    let inData = try? Data(contentsOf: URL(fileURLWithPath: Bundle(identifier: "NMG.ErxesFont")!.path(forResource: "erxes", ofType: "ttf")!))
     var error : Unmanaged<CFError>?

@@ -8,7 +8,7 @@ s.description      = 'Swift version of Erxes-icon'
 
 s.homepage         = 'https://github.com/soyombo-baterdene/ErxesFont'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'Soyombo Bat-Erdene" => "soyombo.b@nmtec.co' }
+s.author           = { 'Soyombo Bat-Erdene' => 'soyombo.b@nmtec.co' }
 s.source           = { :git => 'https://github.com/soyombo-baterdene/ErxesFont.git', :tag => s.version.to_s }
 s.ios.deployment_target = '9.0'
 s.source_files = 'ErxesFont/**/*.{m,h,swift}'

@@ -1,5 +1,4 @@
 
-
 Pod::Spec.new do |s|
 s.name             = 'ErxesFont'
 s.version          = '0.0.2'
@@ -12,8 +11,10 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Soyombo Bat-Erdene" => "soyombo.b@nmtec.co' }
 s.source           = { :git => 'https://github.com/soyombo-baterdene/ErxesFont.git', :tag => s.version.to_s }
 s.ios.deployment_target = '9.0'
-s.source_files          = "ErxesFont/*.swift"
-s.resources             = ["ErxesFont/*.ttf"]
+s.source_files = 'ErxesFont/**/*.{m,h,swift}'
+s.resource_bundles = {
+'ErxesSDK' => ['ErxesFont/**/*.{ttf}']
+}
 s.pod_target_xcconfig = {'DEFINES_MODULE' => 'YES','SWIFT_VERSION' => '5.0'}
 s.frameworks = 'UIKit'
 

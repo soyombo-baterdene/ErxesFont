@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B1EFB6423223B3200D3A9F8 /* erxes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B1EFB6323223B3200D3A9F8 /* erxes.ttf */; };
 		9BC5FE85231F653C003BA44F /* ErxesFont.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5FE84231F653C003BA44F /* ErxesFont.podspec */; };
 		9BC5FE8B231F6602003BA44F /* ErxesFontKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5FE87231F6602003BA44F /* ErxesFontKit.swift */; };
 		9BC5FE8C231F6602003BA44F /* ErxesFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5FE88231F6602003BA44F /* ErxesFont.swift */; };
@@ -133,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC5FE85231F653C003BA44F /* ErxesFont.podspec in Resources */,
-				9B1EFB6423223B3200D3A9F8 /* erxes.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

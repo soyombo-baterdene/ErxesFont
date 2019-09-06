@@ -19,7 +19,9 @@ public func loadFont(){
     }
     fontloaded = true
     let frameworkBundle = Bundle(identifier: "org.cocoapods.ErxesFont")!
-    UIFont.registerFontWithFilenameString(filenameString:"erxes.ttf",bundle:frameworkBundle)
+    let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("ErxesFont.bundle")
+    let resourceBundle = Bundle(url: bundleURL!)!
+    UIFont.registerFontWithFilenameString(filenameString:"erxes.ttf",bundle:resourceBundle)
 }
 
 

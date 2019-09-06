@@ -18,9 +18,8 @@ public func loadFont(){
         return
     }
     fontloaded = true
-   
-
-    UIFont.registerFontWithFilenameString(filenameString:"erxes.ttf",bundle:Bundle(identifier: "NMG.ErxesFont"))
+    let frameworkBundle = Bundle(identifier: "org.cocoapods.ErxesFont")!
+    UIFont.registerFontWithFilenameString(filenameString:"erxes.ttf",bundle:frameworkBundle)
 }
 
 

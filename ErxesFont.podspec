@@ -11,7 +11,7 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Soyombo Bat-Erdene' => 'soyombo.b@nmtec.co' }
 s.source           = { :git => 'https://github.com/soyombo-baterdene/ErxesFont.git', :tag => s.version.to_s }
 s.ios.deployment_target = '9.0'
-s.source_files = 'ErxesFont/**/*.{m,h,swift}'
+s.source_files = 'ErxesFont/**/*'
 s.resource_bundles = {
 'ErxesSDK' => ['ErxesFont/**/*.{ttf}']
 }

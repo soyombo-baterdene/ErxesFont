@@ -19,3 +19,4 @@ s.pod_target_xcconfig = {'DEFINES_MODULE' => 'YES','SWIFT_VERSION' => '5.0'}
 s.frameworks = 'UIKit'
 
 end
+

@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B1EFB6523224FA200D3A9F8 /* erxes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B1EFB6323223B3200D3A9F8 /* erxes.ttf */; };
+		9B1EFB692322540B00D3A9F8 /* ErxesFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1EFB662322540B00D3A9F8 /* ErxesFont.h */; };
+		9B1EFB6A2322540B00D3A9F8 /* ErxesFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EFB672322540B00D3A9F8 /* ErxesFont.swift */; };
+		9B1EFB6B2322540B00D3A9F8 /* ErxesFontKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1EFB682322540B00D3A9F8 /* ErxesFontKit.swift */; };
+		9B1EFB6E2322542000D3A9F8 /* erxes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B1EFB6D2322542000D3A9F8 /* erxes.ttf */; };
 		9BC5FE85231F653C003BA44F /* ErxesFont.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5FE84231F653C003BA44F /* ErxesFont.podspec */; };
-		9BC5FE8B231F6602003BA44F /* ErxesFontKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5FE87231F6602003BA44F /* ErxesFontKit.swift */; };
-		9BC5FE8C231F6602003BA44F /* ErxesFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5FE88231F6602003BA44F /* ErxesFont.swift */; };
-		9BC5FE8E231F6602003BA44F /* ErxesFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC5FE8A231F6602003BA44F /* ErxesFont.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B1EFB6323223B3200D3A9F8 /* erxes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = erxes.ttf; sourceTree = "<group>"; };
+		9B1EFB662322540B00D3A9F8 /* ErxesFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErxesFont.h; path = Classes/ErxesFont.h; sourceTree = "<group>"; };
+		9B1EFB672322540B00D3A9F8 /* ErxesFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErxesFont.swift; path = Classes/ErxesFont.swift; sourceTree = "<group>"; };
+		9B1EFB682322540B00D3A9F8 /* ErxesFontKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErxesFontKit.swift; path = Classes/ErxesFontKit.swift; sourceTree = "<group>"; };
+		9B1EFB6D2322542000D3A9F8 /* erxes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = erxes.ttf; path = Resources/erxes.ttf; sourceTree = "<group>"; };
 		9BC5FD77231F4B67003BA44F /* ErxesFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ErxesFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC5FD7B231F4B67003BA44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC5FE84231F653C003BA44F /* ErxesFont.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ErxesFont.podspec; sourceTree = "<group>"; };
-		9BC5FE87231F6602003BA44F /* ErxesFontKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesFontKit.swift; sourceTree = "<group>"; };
-		9BC5FE88231F6602003BA44F /* ErxesFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesFont.swift; sourceTree = "<group>"; };
-		9BC5FE8A231F6602003BA44F /* ErxesFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErxesFont.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B1EFB6C2322541700D3A9F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B1EFB6D2322542000D3A9F8 /* erxes.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9BC5FD6D231F4B67003BA44F = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +63,10 @@
 		9BC5FD79231F4B67003BA44F /* ErxesFont */ = {
 			isa = PBXGroup;
 			children = (
-				9B1EFB6323223B3200D3A9F8 /* erxes.ttf */,
-				9BC5FE87231F6602003BA44F /* ErxesFontKit.swift */,
-				9BC5FE88231F6602003BA44F /* ErxesFont.swift */,
-				9BC5FE8A231F6602003BA44F /* ErxesFont.h */,
+				9B1EFB662322540B00D3A9F8 /* ErxesFont.h */,
+				9B1EFB672322540B00D3A9F8 /* ErxesFont.swift */,
+				9B1EFB682322540B00D3A9F8 /* ErxesFontKit.swift */,
+				9B1EFB6C2322541700D3A9F8 /* Resources */,
 				9BC5FD7B231F4B67003BA44F /* Info.plist */,
 			);
 			path = ErxesFont;
@@ -71,7 +79,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC5FE8E231F6602003BA44F /* ErxesFont.h in Headers */,
+				9B1EFB692322540B00D3A9F8 /* ErxesFont.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +115,7 @@
 				TargetAttributes = {
 					9BC5FD76231F4B67003BA44F = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -132,7 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1EFB6523224FA200D3A9F8 /* erxes.ttf in Resources */,
+				9B1EFB6E2322542000D3A9F8 /* erxes.ttf in Resources */,
 				9BC5FE85231F653C003BA44F /* ErxesFont.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC5FE8C231F6602003BA44F /* ErxesFont.swift in Sources */,
-				9BC5FE8B231F6602003BA44F /* ErxesFontKit.swift in Sources */,
+				9B1EFB6A2322540B00D3A9F8 /* ErxesFont.swift in Sources */,
+				9B1EFB6B2322540B00D3A9F8 /* ErxesFontKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 		9BC5FD80231F4B67003BA44F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -295,6 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NMG.ErxesFont;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,6 +314,7 @@
 		9BC5FD81231F4B67003BA44F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

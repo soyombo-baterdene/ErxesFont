@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ErxesFont'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'Erxes-Icon for Swift and iOS'
 s.swift_version = '5.0'
 s.description      = 'Swift version of Erxes-icon'

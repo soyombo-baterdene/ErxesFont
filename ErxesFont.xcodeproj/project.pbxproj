@@ -11,7 +11,6 @@
 		9BC5FE85231F653C003BA44F /* ErxesFont.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5FE84231F653C003BA44F /* ErxesFont.podspec */; };
 		9BC5FE8B231F6602003BA44F /* ErxesFontKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5FE87231F6602003BA44F /* ErxesFontKit.swift */; };
 		9BC5FE8C231F6602003BA44F /* ErxesFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5FE88231F6602003BA44F /* ErxesFont.swift */; };
-		9BC5FE8D231F6602003BA44F /* erxes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5FE89231F6602003BA44F /* erxes.ttf */; };
 		9BC5FE8E231F6602003BA44F /* ErxesFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC5FE8A231F6602003BA44F /* ErxesFont.h */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +21,6 @@
 		9BC5FE84231F653C003BA44F /* ErxesFont.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ErxesFont.podspec; sourceTree = "<group>"; };
 		9BC5FE87231F6602003BA44F /* ErxesFontKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesFontKit.swift; sourceTree = "<group>"; };
 		9BC5FE88231F6602003BA44F /* ErxesFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesFont.swift; sourceTree = "<group>"; };
-		9BC5FE89231F6602003BA44F /* erxes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = erxes.ttf; sourceTree = "<group>"; };
 		9BC5FE8A231F6602003BA44F /* ErxesFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErxesFont.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +41,6 @@
 				9BC5FE84231F653C003BA44F /* ErxesFont.podspec */,
 				9BC5FD79231F4B67003BA44F /* ErxesFont */,
 				9BC5FD78231F4B67003BA44F /* Products */,
-				9BC5FE89231F6602003BA44F /* erxes.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC5FE8D231F6602003BA44F /* erxes.ttf in Resources */,
 				9BC5FE85231F653C003BA44F /* ErxesFont.podspec in Resources */,
 				9B1EFB6423223B3200D3A9F8 /* erxes.ttf in Resources */,
 			);
